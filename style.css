@@ -1,0 +1,57 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  #raceTrack {
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .player {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  #player1 {
+    background-color: blue;
+    left: 0;
+  }
+  
+  #player2 {
+    background-color: green;
+    left: 0;
+    bottom: 100px;
+  }
+  
+  #player3 {
+    background-color: yellow;
+    left: 0;
+    bottom: 50px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
